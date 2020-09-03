@@ -12,7 +12,6 @@ Napisz program, który wyświetli literę J utworzoną z gwiazek.
 **   **
  ******
 
- 
 */
 
 
@@ -22,10 +21,4 @@ public class Exercise2 {
     }
 }
 
-//        System.out.println("********");
-//        System.out.println("      **");
-//        System.out.println("      **");
-//        System.out.println("      **");
-//        System.out.println("**    **");
-//        System.out.println("**    **");
-//        System.out.println(" *******");
+

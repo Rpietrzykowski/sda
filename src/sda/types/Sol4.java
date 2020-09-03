@@ -1,2 +1,4 @@
-package sda.types;public class Sol4 {
+package sda.types;
+
+public class Sol4 {
 }

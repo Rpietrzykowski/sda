@@ -16,9 +16,3 @@ public class Exercise4 {
         // put your code here
     }
 }
-
-
-//        System.out.println("X O O");
-//        System.out.println("O X O");
-//        System.out.println("X O X");
-

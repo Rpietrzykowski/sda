@@ -1,7 +1,5 @@
 package sda.types;
 
-import java.util.Scanner;
-
 /*
 Zadeklaruj zmienną one o wartości 1, zmienną two o wartości 2 oraz zmienną three o wartości 3.
 Następnie wyświetl wszystkie trzy liczby w konsoli.

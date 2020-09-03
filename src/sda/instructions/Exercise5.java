@@ -2,8 +2,8 @@ package sda.instructions;
 
 /*
 Napisz program, który przyjmuje jako parametr rok z zakresu 1900 - 3000 a następnie sprawdza czy rok jest przestępny czy nie.
-Jeżeli rok jest jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Leap".
-Jeżeli rok jest nie jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Regular".
+Jeżeli rok jest jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Przestępny".
+Jeżeli rok jest nie jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Zwykły".
 
 Dla przypomnienia:
 
@@ -20,8 +20,3 @@ public class Exercise5 {
     }
 }
 
-
-
-
-
-//if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))

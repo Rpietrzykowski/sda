@@ -9,10 +9,7 @@ import java.util.Scanner;
 
 public class Exercise2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in);
         // put your code here
     }
 }
-
-//    int numOfPlayers = scanner.nextInt();
-//        System.out.println(numOfPlayers);

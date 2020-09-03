@@ -5,21 +5,9 @@ Napisz program, który pobierze od użytkownika tekst z konsoli a następnie zas
 literą 'b'.
  */
 
-import java.util.Scanner;
-
 public class Exercise1 {
     public static void main(String[] args) {
         //put your code here
 
     }
 }
-
-
-//    //utworzyć obiekt scannera
-//    Scanner userInput = new Scanner(System.in);
-//    //Pobranie Stringa przez usera
-//    String userString = userInput.nextLine();
-//    //Zastąpić w stringu userStrin a na b
-//    String newString = userString.toLowerCase().replace('a', 'b');
-//    //Wyświetlic zastąpiony tekst
-//    System.out.println(newString.indexOf(0));
