@@ -10,8 +10,6 @@ Warunki istnienia trójkąta:
 3. B + C > A
  */
 
-import java.util.Scanner;
-
 public class Exercise2 {
     public static void main(String[] args) {
         //put your code here

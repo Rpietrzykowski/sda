@@ -16,6 +16,6 @@ public class Sol1 {
         //Zastąpić w stringu userStrin a na b
         String newString = userString.toLowerCase().replace('a', 'b');
         //Wyświetlic zastąpiony tekst
-        System.out.println(newString.indexOf(0));
+        System.out.println(newString);
     }
 }

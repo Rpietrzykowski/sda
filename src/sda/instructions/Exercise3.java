@@ -11,6 +11,8 @@ Powyżej 1000 - batalion
 
  */
 
+import java.util.Scanner;
+
 public class Exercise3 {
     public static void main(String[] args) {
         //put your code here

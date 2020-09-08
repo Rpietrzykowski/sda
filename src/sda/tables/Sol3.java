@@ -9,9 +9,14 @@ Napisz program w którym:
  - wyświetlisz wynik sumowania liczb
  */
 
-public class Exercise3 {
+public class Sol3 {
     public static void main(String[] args) {
-        //put your code here
-    }
-}
+        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 0;
 
+        for (int i : myArray)
+            sum += i;
+        System.out.println("Suma liczb w tablicy to: " + sum);
+    }
+
+}

@@ -1,63 +1,75 @@
 package sda.obj;
 
-public class Car {
-    private static String color;
-    private static String marka;
-    private static String model;
-    int vMax;
+class Vehicle {
+    protected int year;
+    protected String registrationPlate;
 
-    public Car(String marka, String model) {
+    public void setPlate(String plate){
+        registrationPlate = plate;
+    }
+    public String getPlate(){
+        return registrationPlate;
+    }
+
+}
+
+class Car extends Vehicle{
+    //Pola
+    private final String model;
+    private final String type;
+    private String color;
+    private int vMax;
+    private boolean isOpen = false;
+
+    //Konstruktor
+    public Car(String type, String model, int year, String color, int vMax) {
         this.model = model;
-        this.marka = marka;
+        this.type = type;
+        this.color = color;
+        this.vMax = vMax;
+        this.year = year;
     }
 
-    public void setMarke(String mar) {
-        marka = mar;
-    }
-    public static String getMarke(){
-        return marka;
-    }
-
-    public void setColor(String col) {
-        color = col;
-    }
-    public static String getColor(){
-        return color;
-    }
-
-    public void setModel(String mod) {
-        model = mod;
-    }
-
-    public static String getModel() {
+    //Metody modelu pojazdu
+    public String getModel() {
         return model;
     }
 
-    public static String isOpen(boolean isOpen){
-        if (isOpen == true) {
-            return "Samochód otwarty";
-        }
-        else {
-            return "Samochód zamknięty";
-        }
+    //Metody marki pojazdu
+    public String getType() {
+        return type;
     }
 
-    public static void main(String[] args) {
-        //put your code here
-        Car car = new Car("Volvo", "XC90");
+    //Metody koloru pojazdu
+    public void setColor(String col) {
+        color = col;
+    }
 
+    public String getColor() {
+        return color;
+    }
 
-        String carModel = car.getMarke();
-        System.out.println(carModel);
-        String modelCar = car.getModel();
-        System.out.println(modelCar);
-        System.out.println(car.isOpen(true));
+    //Metody koloru pojazdu
+    public void setVMax(int kmh) {
+        vMax = kmh;
+    }
 
-        car.setMarke("Mercedes");
-        System.out.println(car.getMarke());
-        car.setModel("W124");
-        System.out.println(car.getModel());
-        System.out.println(car.isOpen(false));
+    public int getVMax() {
+        return vMax;
+    }
 
+    //Metoda otwierająco/zamykająca samochód
+    public void setDoors(boolean isCarOpen){
+        isOpen = isCarOpen;
+    }
+
+    //Metoda sprawdzająca czy samochód jest zamknięty
+    public void checkIsOpen() {
+        if (isOpen) {
+            System.out.println("Samochód otwarty.");
+        } else {
+            System.out.println("Samochód zamknięty.");
+        }
     }
 }
+

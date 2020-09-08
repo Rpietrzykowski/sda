@@ -10,9 +10,25 @@ Napisz program w którym:
  - wyświetlisz wynik średniej liczb znajdujących się w tablicy
  */
 
-public class Exercise4 {
+public class Sol4 {
     public static void main(String[] args) {
-        //put your code here
+        int[] arrOfInts = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100};
+        int sum = 0;
+        float avg;
+        for (int val : arrOfInts) {
+            System.out.println(val);
+        }
+
+        for (int val : arrOfInts ) {
+            sum += val;
+        }
+
+        System.out.println(sum);
+
+
+        avg = (float) sum / arrOfInts.length;
+
+        System.out.println(avg);
 
     }
 }

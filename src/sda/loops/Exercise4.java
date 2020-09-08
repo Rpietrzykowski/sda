@@ -11,7 +11,6 @@ Napisz program, który:
 public class Exercise4 {
     public static void main(String[] args) {
         //put your code here
-
     }
 }
 
@@ -25,16 +24,3 @@ public class Exercise4 {
 
 
 
-//    Scanner sc = new Scanner(System.in);
-//
-//    int iterator = sc.nextInt();
-//    int nextNum = 0;
-//    int sumOfNums = 0;
-//
-//        for (int i = 0; i < iterator; i++) {
-//        nextNum = sc.nextInt();
-//        if (nextNum % 6 == 0) {
-//        sumOfNums = sumOfNums + nextNum;
-//        }
-//        }
-//        System.out.println(sumOfNums);

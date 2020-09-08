@@ -11,9 +11,17 @@ Napisz program w którym:
 
 import java.util.Arrays;
 
-public class Exercise2 {
+public class Sol2 {
     public static void main(String[] args) {
         //put your code here
-
+        String[] stringArray = new String[] { "Mleko", "Jablko", "Banan", "Rower" };
+        for (String element:stringArray) {
+            System.out.print(element + " ");
+        }
+        Arrays.sort(stringArray);
+        System.out.println();
+        for (int x = 0; x < stringArray.length; x++ ){
+            System.out.print(stringArray[x] + " ");
+        }
     }
 }

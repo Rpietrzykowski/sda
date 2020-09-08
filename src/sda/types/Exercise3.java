@@ -5,8 +5,14 @@ Zadeklaruj dwie zmienne int a następnie wyświetl wynik dodwania obu zadeklarow
 */
 
 public class Exercise3 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         // put your code here
+        int firstNum = 8;
+        int secondNum = 3;
+
+        int result = firstNum + secondNum;
+
+        System.out.println(result);
 
     }
 }

@@ -13,12 +13,3 @@ public class Exercise2 {
 
     }
 }
-
-//    Scanner userInput = new Scanner(System.in);
-//    int userNumber = userInput.nextInt();
-//
-//        for (int x = 1; x <= userNumber; x++){
-//                if (x % 2 != 1) {
-//                System.out.println(x);
-//                }
-//                }
