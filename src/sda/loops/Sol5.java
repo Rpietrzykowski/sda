@@ -1,9 +1,11 @@
 package sda.loops;
 
 /*
-Napisz program, który będzie przyjmował znak następnie pytał użytkownika czy chce wyjść z gry.
-Jeżeli użytkownik wpisze znak q wtedy ma zostać wyświetlony komunikat "Gra wyłączona"
-Jeżeli użytkownik wpisze inny znak, ma się pojawić ponownie pytanie czy chce wyjść z gry.
+Napisz program, który:
+- Wyświetli pytanie "Czy chcesz wyjść z gry? (Wpisz quit)
+- Pozwoli wprowadzić wpisany tekst przez użytkownika do programu
+- Jeżeli użytkownik wpisze słowo "quit", wyświetl komunikat "Gra wyłączona!"
+- Jeżeli użytkownik wpisze inne słowo, ma się pojawić ponownie pytanie czy chce wyjść z gry.
  */
 
 import java.util.Scanner;
@@ -13,16 +15,14 @@ public class Sol5 {
         Scanner userInput = new Scanner(System.in);
 
         boolean quit = true;
-        String userChar;
+        String userString;
 
         while(quit) {
             System.out.println("Czy chcesz wyjść z gry? (Wpisz q, aby wyjść.)");
-            userChar = userInput.next();
-            if (userChar.equals("q")) {
+            userString = userInput.next().toLowerCase();
+            if (userString.equals("quit")) {
                 quit = false;
             }
-
-
         }
     }
 }

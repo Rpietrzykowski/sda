@@ -1,11 +1,10 @@
 package sda.string;
 
 /*
-Napisz program, który pobierze od użytkownika tekst z konsoli a następnie zastapi wszystkie wystapienia litery 'a',
-literą 'b'.
+Napisz program, który:
+- Pobierze od użytkownika tekst
+- Zastapi w pobranym tekscie wszystkie wystapienia litery 'a'  na literą 'b'.
  */
-
-import java.util.Scanner;
 
 public class Exercise1 {
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
 package sda.loops;
 
 /*
-Napisz program, który wyświetla w konsoli liczby od 0 do 4 przy użyciu pętli while i for.
+Napisz program, który
+- Wyświetla w konsoli liczby od 0 do 4 przy użyciu pętli while
+- Wyświetla w konsoli liczby od 0 do 4 przy użyciu pętli for.
  */
 
 public class Exercise1 {

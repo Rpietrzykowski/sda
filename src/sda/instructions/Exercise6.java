@@ -1,7 +1,9 @@
 package sda.instructions;
 
 /*
-Napisz program, który przejmuje liczbę a jako wynik wyświetla czy wprowadzona liczba jest parzysta czy nie.
+Napisz program, który:
+- Przyjmuje liczbę od użytkownika
+- Sprawdza czy wprowadzona liczba jest parzysta
  */
 
 public class Exercise6 {

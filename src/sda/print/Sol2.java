@@ -3,7 +3,6 @@ package sda.print;
 /*
 Napisz program, który wyświetli literę J utworzoną z gwiazek.
 
-
 *******
      **
      **

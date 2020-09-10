@@ -1,4 +1,4 @@
-package sda.obj;
+package sda.obj.cars;
 
 import sda.obj.Car;
 

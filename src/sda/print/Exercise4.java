@@ -14,8 +14,6 @@ X O X
 public class Exercise4 {
     public static void main(String[] args) {
         // put your code here
-        System.out.println("X O O");
-        System.out.println("X X O");
-        System.out.println("X O X");
+
     }
 }

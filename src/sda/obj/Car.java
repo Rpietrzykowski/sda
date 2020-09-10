@@ -13,7 +13,7 @@ class Vehicle {
 
 }
 
-class Car extends Vehicle{
+public class Car extends Vehicle{
     //Pola
     private final String model;
     private final String type;
@@ -49,7 +49,7 @@ class Car extends Vehicle{
         return color;
     }
 
-    //Metody koloru pojazdu
+    //Metody prędkości pojazdu
     public void setVMax(int kmh) {
         vMax = kmh;
     }

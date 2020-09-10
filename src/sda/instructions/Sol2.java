@@ -1,8 +1,9 @@
 package sda.instructions;
 
 /*
-Napisz program, który przyjmuje liczby A, B oraz C a jako długości boków trójkąta a następnie sprawdza czy trójkąt z
-wymienionymi bokami mógłby istnieć.
+Napisz program, który:
+- Przyjmuje od użytkownika liczby A, B oraz C a jako długości boków trójkąta.
+- Sprawdza czy trójkąt z wymienionymi bokami mógłby istnieć.
 
 Warunki istnienia trójkąta:
 1. A + B > C

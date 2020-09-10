@@ -1,9 +1,11 @@
 package sda.loops;
 
 /*
-Napisz program, który przyjmuje liczbę następnie wyświetla
-liczby parzyste od 0 do wpisanej liczby.
+Napisz program, który:
+- Pobiera od użytkownika liczbę
+- Wyświetla liczby parzyste od 0 do pobranej od użytkownika liczby
 
+(Przykład: Użytkownik wpisuje liczbę 4. Program ma wyświetlić liczbę 2 oraz 4)
  */
 
 import java.util.Scanner;

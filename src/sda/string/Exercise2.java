@@ -1,7 +1,10 @@
 package sda.string;
 
 /*
-Napisz program, który pobierze od użytkownika nazwę miasta a następnie sprawdzi czy na końcu wystąpi końcówka -burg.
+Napisz program, który:
+- Pobierze od użytkownika tekst w postaci nazwy miasta
+- Jeżeli podany przez użytkownika tekst zawiera końcówkę -burg, wyświetl wartość true
+- Jeżeli podany przez użytkownika tekst nie zawiera końcówki - burg, wyświetl wartość false
 
 Output:
 Ausburg
@@ -9,8 +12,6 @@ true
 Oslo
 false
  */
-
-import java.util.Scanner;
 
 public class Exercise2 {
     public static void main(String[] args) {

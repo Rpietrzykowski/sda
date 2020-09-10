@@ -1,2 +1,8 @@
-package sda.obj;public class BookDemo {
+package sda.obj;
+
+class Book {
+
+}
+public class BookDemo {
+
 }

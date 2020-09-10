@@ -1,9 +1,12 @@
 package sda.loops;
 
 /*
-Napisz program, przyjmuje liczbę następnie wyświetla liczby podzielne
-przez 6 z zakresu 0 wpisana liczba a na końcu wyświetla sumę liczb podzielnych przez 6.
+Napisz program, który:
+- Program pobiera od użytkownika liczbę całkowitą
+- Wyświetla liczby podzielne przez 6
+- Wyświetla po zakończeniu pętli sumę liczb podzielnych przez 6
  */
+
 
 public class Exercise3 {
     public static void main(String[] args) {

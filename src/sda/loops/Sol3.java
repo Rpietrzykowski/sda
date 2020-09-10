@@ -1,8 +1,10 @@
 package sda.loops;
 
 /*
-Napisz program, przyjmuje liczbę następnie wyświetla liczby podzielne
-przez 6 z zakresu 0 wpisana liczba a na końcu wyświetla sumę liczb podzielnych przez 6.
+Napisz program, który:
+- Program pobiera od użytkownika liczbę całkowitą
+- Wyświetla liczby podzielne przez 6
+- Wyświetla po zakończeniu pętli sumę liczb podzielnych przez 6
  */
 
 import java.util.Scanner;
@@ -10,6 +12,7 @@ import java.util.Scanner;
 public class Sol3 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
+        System.out.print("Wprowadź liczbę: ");
         int countNum = userInput.nextInt();
         int sum = 0;
 
@@ -19,6 +22,6 @@ public class Sol3 {
                 System.out.println(i);
             }
         }
-        System.out.println(sum);
+        System.out.println("Suma liczb podzielnych przez 6 wynosi: " + sum);
     }
 }

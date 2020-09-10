@@ -1,10 +1,14 @@
 package sda.obj;
 
 class Cat {
+
+    //Pola klasy Cat
     String name;
     boolean isSleeping;
 
+    //Metody klasy Cat
 
+    //Metoda say() wyświetlająca dźwięk naszego kota
     public void say() {
         if (isSleeping) { //Jeżeli kot śpi to wydaje dźwięk "zzz"
             System.out.println("zzz");
@@ -28,14 +32,14 @@ public class CatsDemo {
     public static void main(String[] args) {
 
         Cat mruczek = new Cat(); // Tworzymy obiekt nowego kota
-        mruczek.name = "Mruczek"; //Nadajemy kotu imię Mruczek
+        mruczek.name = "Mruczek"; // Nadajemy kotu imię Mruczek
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) { // Pętla wywołująca pięć razy metodę mówienia przez Mruczka
             mruczek.say(); // Mruczek mówi meow lub zzz zależenie od tego czy śpi czy nie
         }
 
-        mruczek.wakeUp(); // Metoda budząca Mruczka
+        mruczek.wakeUp(); // Użycie metody budzącej naszego M
 
-        mruczek.say(); //Metoda odpowiadająca za mówienie mruczka
+        mruczek.say(); //Użycie metody odpowiadającej za mówienie Mruczka
     }
 }

@@ -14,6 +14,18 @@ import java.util.Arrays;
 public class Exercise2 {
     public static void main(String[] args) {
         //put your code here
+        String[] newTabOfStrings = new String[]{"Kot", "Lama", "Alpaka", "Borsuk"};
+
+        for (String animal : newTabOfStrings) {
+            System.out.print(animal + " ");
+        }
+        System.out.println();
+        Arrays.sort(newTabOfStrings);
+
+        for (String animal : newTabOfStrings) {
+            System.out.print(animal + " ");
+        }
+
 
     }
 }

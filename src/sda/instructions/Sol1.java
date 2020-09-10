@@ -1,8 +1,10 @@
 package sda.instructions;
 
 /*
-Napisz program, który przyjmuje liczbę a następnie wyświetla w konsoli YES,
-jeżeli jest dodatnia lub NO, jeżeli jest ujemna lub zerowa.
+Napisz program, który:
+- Przyjmuje liczbę od użytkownika.
+- Jeżeli liczba otrzymana od użytkownika jest dodatnia, program wyświetli w konsoli słowo YES,
+- Jeżeli liczba otrzymana od użytkownika jest zerowa lub ujemna, program wyświetliw konsoli słowo NO.
 
  */
 

@@ -1,17 +1,19 @@
 package sda.instructions;
 
-import java.util.Scanner;
-
 /*
-Napisz program, który przyjmuje jako parametr liczebność wojska a następnie klasyfikuje je co do wielkości:
+Napisz program, który:
 
-Poniżej 0 - brak armii
-Od 1 do 19 - drużyna
-Od 20 do 249 - pluton
-Od 250 do 999 - kompania
-Powyżej 1000 - batalion
+- Przyjmuje jako parametr liczebność wojska
+- Klasyfikuje je co do wielkości:
+
+    Poniżej 0 - brak armii
+    Od 1 do 19 - drużyna
+    Od 20 do 249 - pluton
+    Od 250 do 999 - kompania
+    Powyżej 1000 - batalion
 
  */
+import java.util.Scanner;
 
 public class Sol3 {
     public static void main(String[] args) {
