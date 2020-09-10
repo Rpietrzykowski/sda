@@ -16,7 +16,10 @@ public class Sol4 {
     public static void main(String[] args) {
         // put your code here
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Wprowadź liczbę do sprawdzenia: ");
         int num = sc.nextInt();
+
         String positive = "TRUE";
         String negative = "FALSE";
 

@@ -4,6 +4,7 @@ package sda.instructions;
 Napisz program, który przyjmuje jako parametr rok z zakresu 1900 - 3000 a następnie sprawdza czy rok jest przestępny czy nie.
 Jeżeli rok jest jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Przestępny".
 Jeżeli rok jest nie jest przestępny to program w konsoli jako wynik powinien wyświetlić słowo "Zwykły".
+Jeżeli rok jest z poza zakresu 1900 - 3000 wyświetl komunikat o podaniu roku z poza zakresu
 
 Dla przypomnienia:
 
@@ -20,16 +21,17 @@ public class Sol5 {
         // put your code here
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Wprowadź rok: ");
         int year = sc.nextInt();
 
         if (year >= 1900 && year <= 3000) {
             if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
-                System.out.println("Leap");
+                System.out.println("Przestępny");
             } else {
-                System.out.println("Regular");
+                System.out.println("Zwykły");
             }
         } else {
-            System.out.println("Regular");
+            System.out.println("Podano rok z poza zakresu!");
         }
     }
 }

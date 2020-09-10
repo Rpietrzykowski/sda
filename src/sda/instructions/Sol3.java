@@ -20,7 +20,7 @@ public class Sol3 {
 
         // put your code here
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Podaj liczbę wojsk: ");
         int troops = sc.nextInt();
 
         if (troops < 1) {

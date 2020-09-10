@@ -18,9 +18,10 @@ public class Sol5 {
         String userString;
 
         while(quit) {
-            System.out.println("Czy chcesz wyjść z gry? (Wpisz q, aby wyjść.)");
+            System.out.println("Czy chcesz wyjść z gry? (Wpisz quit, aby wyjść.)");
             userString = userInput.next().toLowerCase();
             if (userString.equals("quit")) {
+                System.out.println("Gra wyłączona!");
                 quit = false;
             }
         }

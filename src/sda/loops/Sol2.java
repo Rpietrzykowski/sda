@@ -13,6 +13,8 @@ import java.util.Scanner;
 public class Sol2 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
+
+        System.out.print("Wprowadż liczbę: ");
         int userNumber = userInput.nextInt();
 
         for (int x = 1; x <= userNumber; x++) {

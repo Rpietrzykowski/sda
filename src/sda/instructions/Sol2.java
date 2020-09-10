@@ -19,14 +19,17 @@ public class Sol2 {
         //put your code here
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Podaj pierwszy bok trójkąta: ");
         int a = sc.nextInt();
+        System.out.println("Podaj drugi bok trójkąta: ");
         int b = sc.nextInt();
+        System.out.println("Podaj trzeci bok trójkąta: ");
         int c = sc.nextInt();
 
         if (a + b > c && b + c > a && c + a > b) {
-            System.out.println("YES");
+            System.out.println("Trójkąt istnieje");
         } else {
-            System.out.println("NO");
+            System.out.println("Trójkąt nie istnieje");
         }
     }
 }

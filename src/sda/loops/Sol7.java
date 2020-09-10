@@ -16,14 +16,22 @@ import java.util.Scanner;
 
 public class Sol7 {
     public static void main(String[] args) {
-        Scanner userInput = new Scanner(System.in);
-        int divisibleByFour = 0;
-        while (userInput.hasNext()) {
-            int num = userInput.nextInt();
-            if (num % 4 == 0 && divisibleByFour < num) {
-                divisibleByFour = num;
+        Scanner scan = new Scanner(System.in);
+
+        int maximumDivisible = 0;
+        int input;
+        System.out.print("Wpisz ilość liczb, które chcesz wprowadzić do programu: ");
+        int sequenceSize = scan.nextInt();
+        int i = 0;
+
+        while (i < sequenceSize) {
+            input = scan.nextInt();
+            if (input % 4 == 0 && input > maximumDivisible) {
+                maximumDivisible = input;
             }
+            i++;
         }
-        System.out.println(divisibleByFour);
+
+        System.out.println("Najwyższa liczba podzielna przez 4 to: " + maximumDivisible);
     }
 }
