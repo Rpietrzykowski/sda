@@ -9,7 +9,7 @@ Stwórz klasę o nazwie Book. Stworzona klasa ma zawierać trzy pola:
 Następnie stwórz w klasie Exercise1 trzy wybrane przez Ciebie książki.
  */
 
-class Book {
+class Book2 {
     String title;
     int yearOfPublishing;
     boolean isAvailable;
@@ -17,19 +17,19 @@ class Book {
 
 public class Sol1 {
     public static void main(String[] args) {
-        Book negotiate = new Book();
+        Book2 negotiate = new Book2();
         negotiate.title = "Negotiate";
         negotiate.yearOfPublishing = 2012;
         negotiate.isAvailable = true;
 
         Book ninjaAttack = new Book();
-        ninjaAttack.title = "Ninja Attack";
-        ninjaAttack.yearOfPublishing = 1999;
-        ninjaAttack.isAvailable = false;
-
-        Book startCode = new Book();
-        startCode.title = "Start to Code";
-        startCode.yearOfPublishing = 2020;
-        startCode.isAvailable = false;
+//        ninjaAttack.title = "Ninja Attack";
+//        ninjaAttack.yearOfPublishing = 1999;
+//        ninjaAttack.isAvailable = false;
+//
+//        Book startCode = new Book();
+//        startCode.title = "Start to Code";
+//        startCode.yearOfPublishing = 2020;
+//        startCode.isAvailable = false;
     }
 }
