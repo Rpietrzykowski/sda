@@ -3,7 +3,7 @@ package sda.loops;
 /*
 Napisz program, który:
 - Pobiera od użytkownika liczbę
-- Wyświetla liczby parzyste od 0 do pobranej od użytkownika liczby
+- Wyświetla liczby parzyste od 1 do pobranej od użytkownika liczby
 
 (Przykład: Użytkownik wpisuje liczbę 4. Program ma wyświetlić liczbę 2 oraz 4)
  */

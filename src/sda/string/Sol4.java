@@ -1,7 +1,9 @@
 package sda.string;
 
 /*
-Napisz program, który pobierze od użytkownika tekst a następnie sprawi, że cały tekst wyświetli się wielkimi literami.
+Napisz program, który:
+- Pobierze od użytkownika tekst
+- Wyświetli wpisany tekst wielkimi literami.
 */
 
 import java.util.Scanner;

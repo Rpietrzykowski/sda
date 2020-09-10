@@ -1,5 +1,12 @@
 package sda.types;
 
+/*
+Napisz program, w którym:
+- Wprowadzisz 3 dowolnie wybranych typów zmiennych z użyciem System.in
+- Wyświetlisz wprowadzone wartości
+
+*/
+
 import java.util.Scanner;
 
 public class Sol2 {

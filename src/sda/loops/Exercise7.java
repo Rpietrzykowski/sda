@@ -2,12 +2,12 @@ package sda.loops;
 /*
 Napisz program, który:
 - Pobierze od użytkownika liczbę elementów do pobrania.
-- Pozwoli wpisać taką samą liczbę różnych liczb jak liczba elementów podana wcześniej.
+- Pozwoli na wpisanie elementów zadeklarowanych wcześniej przez użytkownika
 - Znajdzie najwyższą liczbę podzielną przez 4 i wyświetli ją na ekranie spośród tych liczb.
--- Sprawdzac czy dana liczba jest podzielna przez cztery
+
+
 Liczba elementów do wpisania nie może być większa niż 1000.
 Liczba wprowadzona jako pojedyńczy element nie może być większa niż 30000.
-
 
 */
 

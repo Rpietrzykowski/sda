@@ -1,9 +1,10 @@
 package sda.types;
 
 /*
-Napisz program, który sprawdzi czy wprowadzona wartość w konsoli jest mniejsza niż 10.
-Kod do pobierania liczby z konsoli przez użytkownika jest już zaimplementowany.
-Program na koniec powinien wyświetlić wartość true lub false.
+Napisz program, który:
+- Pobierze od użytkownika liczbę
+- Sprawdzi czy wprowadzona wartość w konsoli jest mniejsza niż 10.
+- Program na koniec powinien wyświetlić wartość true lub false.
 */
 
 import java.util.Scanner;

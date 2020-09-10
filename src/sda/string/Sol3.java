@@ -3,8 +3,13 @@ package sda.string;
 import java.util.Scanner;
 
 /*
-Napisz program, który pobierze od użytkownika tekst oraz początek i koniec nowego tekstu a następnie wyświetli nowy
-tekst w konsoli.
+Napisz program, który:
+
+- Pobierze od użytkownika dowolny tekst
+- Pobierze początkowy indeks dla nowego tekstu utworzonego z wpisanego wcześniej tekstu
+- Pobierze końcowy indeks dla nowego tekstu utworzonego z wpisanego wcześniej tekstu
+- Wyświetli w konsoli nowy tekst utworzony na podstawie starego tekstu
+
 */
 
 public class Sol3 {

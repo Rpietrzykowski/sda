@@ -6,7 +6,7 @@ import java.util.Scanner;
 Napisz program, który:
 - Pobierze od użytkownika tekst w postaci nazwy miasta
 - Jeżeli podany przez użytkownika tekst zawiera końcówkę -burg, wyświetl wartość true
-- Jeżeli podany przez użytkownika tekst nie zawiera końcówki - burt, wyświetl wartość false
+- Jeżeli podany przez użytkownika tekst nie zawiera końcówki - burg, wyświetl wartość false
 
 Output:
 Ausburg

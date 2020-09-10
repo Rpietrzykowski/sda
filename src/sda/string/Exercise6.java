@@ -1,7 +1,9 @@
 package sda.string;
 
 /*
-Napisz program, który pobierze od użytkownika pięć słów a następnie wyświetli je jako jeden tekst w konsoli.
+Napisz program, który:
+- Pobierze od użytkownika pięć dowolnych słów
+- Wyświetli wpisane pięć słów jako jeden tekst w konsoli
 */
 
 public class Exercise6 {

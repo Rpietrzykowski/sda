@@ -1,9 +1,12 @@
 package sda.types;
 
 /*
-Napisz program, który sprawdzi czy wprowadzona wartość w konsoli
-jest mniejsza niż 20 i większa niż 0.
-Program na koniec powinien wyświetlić wartość true lub false.
+
+Napisz program, który:
+- Pobierze od użytkownika liczbę
+- Sprawdzi czy wprowadzona wartość w konsolijest mniejsza niż 20 i większa niż 0.
+- Program na koniec powinien wyświetlić wartość true lub false.
+
 */
 
 public class Exercise6 {

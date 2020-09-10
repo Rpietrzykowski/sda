@@ -1,16 +1,7 @@
 package sda.print;
 
 /*
-Napisz program, który wyświetli literę J utworzoną z gwiazek.
-
-*******
-     **
-     **
-     **
-**   **
-**   **
- ******
-
+Napisz program, który wyświetli cyfry od 0 do 4 w konsoli.
 */
 
 public class Exercise1 {

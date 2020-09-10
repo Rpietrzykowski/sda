@@ -1,7 +1,9 @@
 package sda.string;
 
 /*
-Napisz program, który pobierze od użytkownika tekst a następnie sprawi, że cały tekst wyświetli się małymi literami.
+Napisz program, który:
+- Pobierze od użytkownika tekst
+- Wyświetli wpisany tekst małymi literami.
 */
 
 public class Exercise5 {

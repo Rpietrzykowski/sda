@@ -1,7 +1,11 @@
 package sda.types;
 
 /*
-Zadeklaruj dwie zmienne int a następnie wyświetl wynik dodwania obu zadeklarowanych liczb.
+Napisz program w którym:
+
+- Zadeklaruj dwie zmienne int
+- Wyświetl wynik dodwania obu zadeklarowanych liczb.
+
 */
 
 public class Sol3 {
@@ -9,9 +13,13 @@ public class Sol3 {
 
         int firstNumber = 20;
         int secondNumber = -10;
+
+        // Rozwiązanie numer 1
         int result = firstNumber + secondNumber;
         System.out.println(result);
-//        System.out.println(firstNumber + secondNumber);
+
+        // Rozwiązanie numer 2
+        System.out.println("Wynik rozwiązania numer 2: " + firstNumber + secondNumber);
 
     }
 }

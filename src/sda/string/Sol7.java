@@ -1,9 +1,13 @@
 package sda.string;
 
-/*
-Napisz program, który pobierze od użytkownika dwa zdania i sprawdzi czy zdania są takie same wyświetlając na końcu true
- lub false.
-*/
+ /*
+Napisz program, który:
+- Pobierze od użytkownika dwa zdania
+- Sprawdzi czy zdania są takie same
+- Jeżeli zdanie jest takie same, wyświetli w konsoli wartość true
+- Jeżeli zdanie jest inne, wyświetli w konsoli wartość false
+ */
+
 
 import java.util.Scanner;
 
