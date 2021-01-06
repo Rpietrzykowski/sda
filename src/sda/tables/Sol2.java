@@ -14,6 +14,7 @@ import java.util.Arrays;
 public class Sol2 {
     public static void main(String[] args) {
         //put your code here
+        //Rozwiązanie 1
         String[] stringArray = new String[] { "Mleko", "Jablko", "Banan", "Rower" };
         for (String element:stringArray) {
             System.out.print(element + " ");
@@ -22,6 +23,19 @@ public class Sol2 {
         System.out.println();
         for (int x = 0; x < stringArray.length; x++ ){
             System.out.print(stringArray[x] + " ");
+        }
+
+        //Rozwiązanie 2
+        String[] newTabOfStrings = new String[]{"Kot", "Lama", "Alpaka", "Borsuk"};
+
+        for (String animal : newTabOfStrings) {
+            System.out.print(animal + " ");
+        }
+        System.out.println();
+        Arrays.sort(newTabOfStrings);
+
+        for (String animal : newTabOfStrings) {
+            System.out.print(animal + " ");
         }
     }
 }

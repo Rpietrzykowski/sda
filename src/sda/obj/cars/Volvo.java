@@ -14,7 +14,7 @@ public class Volvo {
         System.out.println("Kolor naszego samochodu po malowaniu to: " + volvo.getColor());
 
         //Wyświetlenie prędkości maksymalnej
-        System.out.printf("Prędkość maksymalna naszego %s %s to: %d + km/h%n", volvo.getType(), volvo.getModel(), volvo.getVMax());
+        System.out.printf("Prędkość maksymalna naszego %s %s to: %d km/h%n", volvo.getType(), volvo.getModel(), volvo.getVMax());
         //Zmiana prędkości maksymalnej np po instalacji chipa
         volvo.setVMax(250);
         //Wyświetlenie prędkości maksymalnej po modyfikacji
